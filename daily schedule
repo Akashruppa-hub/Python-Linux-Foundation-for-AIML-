@@ -1,0 +1,48 @@
+//Phase 1: The Foundation (Days 1–7) Goal: Move from "Windows User" to "Terminal User.
+[ ] Day 1: The Basics. Python: print(), Variables. Linux: pwd, ls, cd. Task: Navigate to a folder and print your "System Entry" details. 
+[ ] Day 2: Input & Files. Python: input(), Type Casting. Linux: mkdir, touch. Task: Create a script that asks for user data and a Linux folder to store it in.
+[ ] Day 3: Logic & Movement. Python: Operators (+, -, ==). Linux: cp, mv. Task: Build a calculator; move the script into a bin/ folder you created. 
+[ ] Day 4: Decisions. Python: if/elif/else. Linux: ls -a, history. Task: Build a "Gatekeeper" script (Age/Permission check). 
+[ ] Day 5: The Loop. Python: for, while, range. Linux: cat, echo, >. Task: Generate numbers 1-100 in Python and redirect that output to a .txt file using Linux >. 
+[ ] Day 6: Inspection. Python: break/continue. Linux: head, tail, wc. Task: Create a large text file and use Linux to read only the last 5 lines.
+[ ] Day 7: Review. Mini Project: Build a Daily Expense Logger. Input name and price, save to a list, and print the total. 
+//Phase 2: The Toolbelt (Days 8–15) Goal: Start organizing data like a developer.
+[ ] Day 8: Slicing. Python: String Slicing/Methods. Linux: Absolute vs Relative paths. Task: Take a long URL and "clean" it using Python slicing.
+[ ] Day 9: Lists. Python: .append(), .pop(). Linux: tree (install if needed). Task: Create a "Task Manager" list. 
+[ ] Day 10: Collections. Python: Tuples vs Sets. Linux: find. Task: Use find to locate your Python scripts from Phase 1. 
+[ ] Day 11: Dictionaries. Python: Key-Value pairs. Linux: ls -l (Permissions). Task: Store "Server Configs" (IP, Port, Status) in a Dictionary. [ ] Day 12: Functions. Python: def, return. Linux: chmod +x. Task: Turn your calculator into a "Script" you can run globally with ./calc.py.
+[ ] Day 13: Automation. Python: Scope. Linux: Simple .sh script. Task: Write a shell script that creates 5 Python files automatically.
+[ ] Day 14: Searching. Python: sorted(), min/max. Linux: grep. Task: Use grep to find a specific keyword inside your Python files. [ ] Day 15: Milestone Project: The Student Records System. Store names and marks in a dictionary, calculate averages, and find the topper. 
+//Phase 3: The Engineer Mindset (Days 16–25) Goal: Error handling and Professional File Work. 
+[ ] Day 16: Persistence. Python: open(), write(), read(). Linux: Redirection >>. Task: Build a "Persistent Note Taker" (saves to a file).
+[ ] Day 17: Safety. Python: try/except. Linux: Exit codes. Task: Make your file-reader crash-proof (what if the file doesn't exist?). 
+[ ] Day 18: Modularity. Python: import, Creating modules. Linux: PATH concept. Task: Create math_tools.py and import it into main.python
+[ ] Day 19: Systems. Python: datetime, random. Linux: date, uptime. Task: A password generator that timestamps when the password was created. 
+[ ] Day 20: Editors. Python: List Comprehension. Linux: Nano/Vim. Task: Edit a Python script entirely inside the terminal (No VS Code!).
+[ ] Day 21: Filters. Python: map, filter, lambda. Linux: sort, uniq. Task: Clean a list of duplicate names using Python and Linux uniq.
+[ ] Day 22: Objects. Python: Classes/Objects. Linux: ps (Processes). Task: Create a Process class to represent what's happening in your OS.
+[ ] Day 23: Methods. Python: Dunder methods (init). Linux: top/htop. Task: Build a "System Resource" object. 
+[ ] Day 24: Control. Python: OOP Revision. Linux: kill. Task: Logic practice: If a process exceeds a memory limit, "kill" it in your simulation. 
+[ ] Day 25: Major Project: The File-Based Expense Tracker. A tool that saves, reads, and deletes expenses from a .txt file using classes. 
+//Phase 4: AIML Data Workflow (Days 26–35) Goal: Handling data formats used in Machine Learning.
+[ ] Day 26: CSV Intro. Python: csv module. Linux: cat vs head for datasets. Task: Read a sample dataset (like Iris or Titanic) in the terminal. [ ] Day 27: CSV Writing. Python: Writing rows. Linux: column -t. Task: Export your Expense Tracker data to a .csv file. 
+[ ] Day 28: JSON. Python: json module. Linux: jq (concept). Task: Save user settings in a .json file. 
+[ ] Day 29: Requests. Python: requests library. Linux: ping, curl. Task: Fetch data from a public API (like OpenWeather).
+[ ] Day 30: Isolation. Python: venv. Linux: Environment variables. Task: Create your first Virtual Environment. Crucial! 
+[ ] Day 31: Packages. Python: pip, requirements.txt. Linux: which python. Task: Install numpy and pandas inside your venv. 
+[ ] Day 32: OS Module. Python: os.listdir(), os.path. Linux: find. Task: Build a "Disk Cleanup" script that identifies files larger than 1MB. 
+[ ] Day 33: Arguments. Python: sys.argv. Linux: Command-line flags. Task: Create a script where you pass the filename as an argument: python clean.py data.csv. 
+[ ] Day 34: Automation. Python: shutil. Linux: tar, zip. Task: Build a "Backup Bot" that zips your project folder automatically. 
+[ ] Day 35: Major Project: The Dataset Cleaner Lite. A script that reads a messy CSV, removes empty rows, converts text to lowercase, and saves a "clean" version.
+//Phase 5: The Pro Linux Environment (Days 36–45) Goal: Owning the machine. 
+[ ] Day 36: System Layout. Linux: /bin, /etc, /var. Task: Locate where Python is actually installed on your system.
+[ ] Day 37: Paths. Linux: Exporting $PATH. Task: Add your personal scripts/ folder to the system path.
+[ ] Day 38: Package Managers. Linux: apt (or brew/pacman). Task: Update your system and install a new terminal tool (like htop).
+[ ] Day 39: Aliases. Linux: .bashrc or .zshrc. Task: Create an alias ga for git add . or py for python3. 
+[ ] Day 40: Shell Scripting. Linux: If/Loops in Bash. Task: Create a setup.sh that makes a new project folder with a venv inside. 
+[ ] Day 41: Permissions Deep Dive. Linux: chown, chmod (755 vs 644). Task: Secure a sensitive data file so only you can read it. 
+[ ] Day 42: Logging. Linux: tee, >> log.txt. Task: Make your Python script write its errors to a system.log file.
+[ ] Day 43: Scheduling. Linux: crontab. Task: (Concept) How would you make your "Backup Bot" run every Sunday at midnight?
+[ ] Day 44: The Final Polish. Review all 45 days. Clean up your GitHub repositories.
+[ ] Day 45: CAPSTONE PROJECT: The AIML Engineer's Toolkit. One master script that can: 1. Fetch data from an API, 2. Clean it, 3. Save it to CSV, and 4. Log the activity. All run via a custom Linux command.
+																																																		
