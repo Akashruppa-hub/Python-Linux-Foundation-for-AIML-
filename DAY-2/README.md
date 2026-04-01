@@ -1,4 +1,4 @@
-# Day 1 - Linux + Python
+# Day 2 - Linux + Python
 
 ## Python
 - inputs
