@@ -1,0 +1,7 @@
+"I'm compltely aware about varibales
+But what i learned is;
+1. Python verifies line to line and detect the syntax errors when I run the code 
+2. It converts our code into byte code in intermediate form but not fully like code code "C"
+3. It will Allocates the memory and stores the value like a[] ==> a[10]
+4. It treates everthing as objects
+5. Finally it displays/visualises the output
