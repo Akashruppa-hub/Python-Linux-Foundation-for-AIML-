@@ -1,0 +1,45 @@
+
+"""
+import os 
+class ExpenseTracker:
+
+    def __init__(self,filename):
+            self.filename = filename
+
+    def add_expense(self,name,amount):
+        with open(self.filename,"a") as f:
+             f.write(f"{name}-{amount}\n")
+             print("Expenses added successfully")
+    def viewExpenses(self):
+        try:
+             with open(self.filename,"r") as f:
+                  expenses = f.readlines()
+                  if expenses:
+                       print("Your expenses:")
+                  for line in expenses:
+                       print(line.strip())
+                  else:
+                       print("No exp found")
+        except FileNotFoundError:
+             print("NO FILE FOUND")
+    def DeleteExpenses(self):
+         if os.path.exists(self.filename):
+              open(self.filename,"w").close()
+         else:
+              print("File Not found...")
+tracker = ExpenseTracker("/mnt/c:/Users/akash/OneDrive/Desktop/HII BRO.txt")
+while True:
+    print("OPTIONS AVAILABLE ARE:\n1.Add Exp\n2.ViewExp\n3.DeleteExpense]\n4.Exit")
+    choice = input("Enter your choice:")
+    if choice == "1":
+        tracker.add_expense("Akash",5000)
+    elif choice == "2":
+          tracker.viewExpenses()
+    elif choice == "3":
+          tracker.DeleteExpenses()
+    elif choice == "4":
+            print("Thank you for Visiting!....")
+            break
+else:
+     print("enter some valid choice")
+"""akash-500.0
