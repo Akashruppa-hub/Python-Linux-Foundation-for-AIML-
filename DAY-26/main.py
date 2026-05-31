@@ -17,7 +17,7 @@ class ExpenseTracker:
                    print(line.strip())
              else:
                 print("No expenses Found") 
-       except FileExistsError:
+       except FileNotFoundError:
           print("Fike not found")
     def delete_expenses(self):
        if os.path.exists(self.filepath):
