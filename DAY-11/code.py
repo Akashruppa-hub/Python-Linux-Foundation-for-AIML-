@@ -1,5 +1,4 @@
 #SETS
-"""
 thisset = {"apple","banana","cherry","apple"}
 
 print(len(thisset))
@@ -40,7 +39,7 @@ set2 = {1,2,3,4}
 set3 = set1|set2
 set4 = set1.union(set2)
 print(set3)
-"""
+
 #METHODS
 setp = {"father","mother","uncle","aunt","grandfather","grandmother"}
 setc = {"brother","Sister","nephew","step-sis","step-bro"}
@@ -50,5 +49,3 @@ setd = setp.issubset(setc)
 print(setd)
 setp.remove("Maternal")
 print(setp)
-
-

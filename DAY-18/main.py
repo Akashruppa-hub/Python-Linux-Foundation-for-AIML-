@@ -2,6 +2,7 @@
 """
 a = int(input("Enter a numner:"))
 print(1/a)
+"""
 
 try:
     number = int(input("Enter some random stuff:"))
@@ -12,16 +13,13 @@ except ZeroDivisionError:
     print("You can't divide by Zero you Idiot!...")
 finally:
     print("Try again")
-    """
 #TASKS
-"""
 try:
     print(x)
 except:
     print("An error  occured")
 finally:
     print("Execution Complete")
-    """
 #2----
 def fun():
     try:

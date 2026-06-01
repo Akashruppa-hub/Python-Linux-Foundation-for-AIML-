@@ -1,5 +1,4 @@
 #LISTS
-"""
 names = ["akash","babar","cherry",123]
 print(123 in names)
 print(help(names)))
@@ -27,16 +26,16 @@ fruits.sort()
 fruits.pop()
 fruits.append("coco")
 print(fruits)
-"""
+
 #TASKS
 #1-task-manager
-"""
+
 tasks = ["read","watch","play","out"]
 tasks.append("run")
 tasks.pop()
 for x in tasks:
     print(x)
-    """
+
 #2-Cart simulator
 cart=[]
 while True:
@@ -61,3 +60,4 @@ while True:
 
     else:
         print("invalid choice")
+    

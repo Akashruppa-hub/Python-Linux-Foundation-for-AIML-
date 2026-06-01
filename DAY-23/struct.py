@@ -1,4 +1,3 @@
-
 class  Bike:
     def __init__(self,name,year,color,milage):
         self.name = name
@@ -11,4 +10,4 @@ class  Bike:
         print("NO not at all.......")
     def describe(self):
         print(f"{self.name} manifactured in {self.year} its color is {self.color} it's milage is {self.milage}")
-        """
+

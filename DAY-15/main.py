@@ -1,6 +1,6 @@
 #Sorting
 #---LISTS----
-"""
+
 names = ["mukul","cherry","ram","akash","eswar","krish"]
 names.sort()
 already = (names.sort(),reverse = True)
@@ -43,7 +43,7 @@ numbers.sort()
 print(numbers)
 print(f"max:",max(numbers))
 print(f"min:",min(numbers))
-"""
+
 #2--
 cart = {
     "conditioner":230,

@@ -1,5 +1,4 @@
 #TUPLES - BASICS
-"""
 mytuple = ("apple","banana","cherry")
 print(mytuple[0]) 
 print(mytuple[1]) 
@@ -69,15 +68,17 @@ print(tuple4)
 sample = ("akash","charan","akash","rambod","chakka")
 print(sample.count("akash"))
 print(sample.index("akash"))
-"""
-#TASKS
-fruits = tuple(["apple","banana","cherry"])
+
+#TASK
+#1 fruits = tuple(["apple","banana","cherry"])
 print(fruits[1])
 print(len(fruits))
 (a,b,c) = fruits
 print(a)
 print(b)
 print(c)
+
+
 
 
 

@@ -1,5 +1,5 @@
 #SCOPE 
-"""
+
 name = "AkashbhAAi"
 def my_name():
     #name = "akash"
@@ -49,6 +49,5 @@ def fun1():
         print(name)
     fun2()
 fun1()
-"""
 
 

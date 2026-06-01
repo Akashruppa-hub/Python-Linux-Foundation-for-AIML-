@@ -1,5 +1,5 @@
 #DICTONARIES
-"""
+
 mydict = {
     "name":"Akash",
     "age":20,
@@ -64,7 +64,7 @@ my_dict = {
 }
 new_dict = dict(my_dict)
 print(new_dict)
-"""
+
 #TASK
 car = {
     "brand":"Suzuki",
