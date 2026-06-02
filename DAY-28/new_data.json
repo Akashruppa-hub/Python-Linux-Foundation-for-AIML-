@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "firstname": "Akash",
+      "lastname": "Ruppa"
+    },
+    {
+      "firstname": "Sneha",
+      "lastname": "Patel"
+    },
+    {
+      "firstname": "Ravi",
+      "lastname": "Kumar"
+    },
+    {
+      "firstname": "Priya",
+      "lastname": "Sharma"
+    },
+    {
+      "firstname": "Arjun",
+      "lastname": "Reddy"
+    },
+    {
+      "firstname": "Meera",
+      "lastname": "Nair"
+    },
+    {
+      "firstname": "Kiran",
+      "lastname": "Das"
+    },
+    {
+      "firstname": "Anjali",
+      "lastname": "Verma"
+    },
+    {
+      "firstname": "Vikram",
+      "lastname": "Joshi"
+    },
+    {
+      "firstname": "Neha",
+      "lastname": "Chopra"
+    }
+  ]
+}
