@@ -1,0 +1,12 @@
+[
+    {
+        "name":"AKASH",
+        "age":20,
+        "diseases_have":null
+    },
+    {
+      "name":"tomioka",
+      "age":25,
+      "diseases_have":true
+    }
+]
