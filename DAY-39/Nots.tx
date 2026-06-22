@@ -1,0 +1,26 @@
+#SAMPLE CODES--.sh
+1----
+#!/bin/bash
+read -p "enter age: " age
+if [ $age -ge 18 ]
+then
+    echo "Eligible"
+else
+    echo "Not Eligible"
+fi
+2----
+akash@akash:~/pythonfolders$ cat app.sh
+#!/bin/bash
+age=20
+if [ $age -ge 18 ]
+then
+    echo "Adult"
+else
+    echo "Minor"
+fi
+#3--Sample Python code in bash-----
+age = int(input("Enter age"))
+if age >= 18:
+   print("You are Adult")
+else:
+   print("You are Minor")
